@@ -1,8 +1,6 @@
 services:
   web:
-    image: nginx:latest
+    image: misterbisson/sample-racing-game 
     ports:
-      - "8081:80"
-        #CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS              PORTS                                                                                          NAMES
-        #eb06c47f0dfc   nginx:latest   "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp                                                        docker-compose-web-1
+      - "8082:8080"
 
